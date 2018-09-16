@@ -1,5 +1,7 @@
 ### The goal of this repo is to reproduce Aurelia Dialog 2.0.0-RC.3 bug
 
+Bug url: https://github.com/aurelia/dialog/issues/361
+
 App was created using latest Aurelia CLI, with webpack, typescript options selected.
 
 Steps to reproduce:
