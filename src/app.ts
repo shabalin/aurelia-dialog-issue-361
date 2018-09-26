@@ -13,7 +13,7 @@ export class App {
   openDialog(): void {
     this.dialogService.open({
       model: {message:"Hello"},
-      viewModel: DialogViewModel
+      viewModel: DialogViewModel,
     })
   }
 }

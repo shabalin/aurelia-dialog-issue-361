@@ -98,6 +98,9 @@ module.exports = ({production, server, extractCss, coverage, analyze, karma} = {
       })
     ]
   },
+  optimization: {
+    concatenateModules: false,
+  },
   plugins: [
     ...when(!karma, new DuplicatePackageCheckerPlugin()),
     new AureliaPlugin(),
